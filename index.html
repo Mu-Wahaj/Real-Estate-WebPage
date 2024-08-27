@@ -17,6 +17,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   </head>
   <body>
+    <!-- navabr -->
+
     <div id="header-hero-container">
       <header>
         <div class="flex container">
@@ -29,20 +31,20 @@
             </button>
 
             <ul id="nav-menu">
-              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#" class="active nav-item">Home</a></li>
               <li>
-                <a href="http://www.google.com" target="_blank">Properties</a>
+                <a href="#properties" class="nav-item">Properties</a>
               </li>
-              <li><a href="#">Agents</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#agents" class="nav-item">Agents</a></li>
+              <li><a href="#the-best" class="nav-item">About</a></li>
+              <li><a href="#services" class="nav-item">services</a></li>
+              <li><a href="#contact" class="nav-item">Contact</a></li>
               <li id="close-flyout"><span class="fas fa-times"></span></li>
             </ul>
           </nav>
         </div>
       </header>
-
+      <!-- hero -->
       <section id="hero">
         <div class="fade"></div>
         <div class="hero-text">
@@ -54,7 +56,7 @@
         </div>
       </section>
     </div>
-
+    <!-- how it Works -->
     <section id="how-it-works">
       <div class="container">
         <h2>How It Works</h2>
@@ -79,78 +81,63 @@
         </div>
       </div>
     </section>
-
+    <!-- properties -->
     <section id="properties">
       <div class="container">
         <h2>Properties</h2>
         <div id="properties-slider" class="slick">
           <div>
-            <img
-              src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg"
-              alt="Property 1"
-            />
+            <img src="assets/house_1.jpg" alt="Property 1" />
             <div class="property-details">
-              <p class="price">$3,400,000</p>
-              <span class="beds">6 beds</span>
-              <span class="baths">4 baths</span>
-              <span class="sqft">4,250 sqft.</span>
+              <p class="price">$1,400,000</p>
+              <span class="beds">3 beds</span>
+              <span class="baths">2 baths</span>
+              <span class="sqft">2,250 sqft.</span>
               <address>480 12th, Unit 14, San Francisco, CA</address>
             </div>
           </div>
 
           <div>
-            <img
-              src="https://onclickwebdesign.com/wp-content/uploads/property_2.jpg"
-              alt="Property 1"
-            />
+            <img src="assets/house_2.jpg" alt="Property 1" />
             <div class="property-details">
-              <p class="price">$3,400,000</p>
+              <p class="price">$4,400,000</p>
               <span class="beds">6 beds</span>
               <span class="baths">4 baths</span>
-              <span class="sqft">4,250 sqft.</span>
-              <address>480 12th, Unit 14, San Francisco, CA</address>
+              <span class="sqft">5,000 sqft.</span>
+              <address>732 Elmwood Ave, Apt 5B, Brooklyn</address>
             </div>
           </div>
 
           <div>
-            <img
-              src="https://onclickwebdesign.com/wp-content/uploads/property_3.jpg"
-              alt="Property 1"
-            />
+            <img src="assets/house_3.jpg" alt="Property 1" />
             <div class="property-details">
-              <p class="price">$3,400,000</p>
-              <span class="beds">6 beds</span>
-              <span class="baths">4 baths</span>
-              <span class="sqft">4,250 sqft.</span>
-              <address>480 12th, Unit 14, San Francisco, CA</address>
+              <p class="price">$1,250,000</p>
+              <span class="beds">5 beds</span>
+              <span class="baths">2 baths</span>
+              <span class="sqft">4,000 sqft.</span>
+              <address>876 Maple Ave, Suite 402, Dallas, TX</address>
             </div>
           </div>
 
           <div>
-            <img
-              src="https://onclickwebdesign.com/wp-content/uploads/property_4.jpg"
-              alt="Property 1"
-            />
+            <img src="assets/house_4.jpg" alt="Property 1" />
             <div class="property-details">
               <p class="price">$3,400,000</p>
-              <span class="beds">6 beds</span>
-              <span class="baths">4 baths</span>
-              <span class="sqft">4,250 sqft.</span>
-              <address>480 12th, Unit 14, San Francisco, CA</address>
+              <span class="beds">3 beds</span>
+              <span class="baths">2 baths</span>
+              <span class="sqft">1,000 sqft.</span>
+              <address>321 Cedar St, Unit 8F, Seattle, WA</address>
             </div>
           </div>
 
           <div>
-            <img
-              src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg"
-              alt="Property 1"
-            />
+            <img src="assets/hero_house.jpg" alt="Property 1" />
             <div class="property-details">
               <p class="price">$3,400,000</p>
               <span class="beds">6 beds</span>
               <span class="baths">4 baths</span>
               <span class="sqft">4,250 sqft.</span>
-              <address>480 12th, Unit 14, San Francisco, CA</address>
+              <address>1500 Oak Dr, Unit 21, Los Angeles, CA</address>
             </div>
           </div>
         </div>
@@ -159,12 +146,305 @@
       </div>
     </section>
     <!-- Agents -->
-     <section id="agents">
+    <section id="agents">
       <div class="container">
         <h2>Agents</h2>
-        <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-        <div class="flex"></div>
+        <p class="large-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quis molestiae vitae eligendi at.
+        </p>
+        <div class="flex">
+          <div class="card">
+            <img src="assets/agent_1.jpg" alt="agen_1" />
+            <h3>harry peter</h3>
+            <p>Real State Agent</p>
+          </div>
+          <div class="card">
+            <img src="assets/agent_2.jpg" alt="agen_1" />
+            <h3>jhon adam</h3>
+            <p>Real State Agent</p>
+          </div>
+          <div class="card">
+            <img src="assets/agent_3.jpg" alt="agen_1" />
+            <h3>emily jhones</h3>
+            <p>Real State Agent</p>
+          </div>
+          <div class="card">
+            <img src="assets/agent_4.jpg" alt="agen_1" />
+            <h3>larry wilson</h3>
+            <p>Real State Agent</p>
+          </div>
+          <div class="card">
+            <img src="assets/agent_5.jpg" alt="agen_1" />
+            <h3>jhonson charles</h3>
+            <p>Real State Agent</p>
+          </div>
+          <div class="card">
+            <img src="assets/agent_6.jpg" alt="agen_1" />
+            <h3>will nick</h3>
+            <p>Real State Agent</p>
+          </div>
+        </div>
       </div>
-     </section>
+    </section>
+    <!-- about -->
+    <section id="the-best">
+      <div class="flex container">
+        <img src="assets/hero_house.jpg" alt="" />
+        <div>
+          <h2>We Are the Best Real Estate Company</h2>
+          <p class="large-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p>
+            At <span style="color: #f69314" id="company_name">SATATED</span> we
+            combine deep market knowledge with personalized service to ensure
+            you find the perfect property. Our proven track record and expert
+            negotiation skills consistently deliver the best deals for our
+            clients. From start to finish, we offer comprehensive support and
+            use innovative marketing strategies to give your property maximum
+            exposure. Choose us for an exceptional real estate experience.
+          </p>
+          <ul>
+            <li>Extensive Market Knowledge</li>
+            <li>Personalized Service</li>
+            <li>Proven Track Record</li>
+            <li>Expert Negotiation Skills</li>
+            <li>Comprehensive Support</li>
+          </ul>
+          <button class="rounded">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- servicess -->
+
+    <section id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="flex">
+          <div>
+            <div class="fas fa-home"></div>
+            <div class="services-card-right">
+              <h3>Search Property</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quis molestiae vitae eligendi at.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="fas fa-dollar-sign"></div>
+            <div class="services-card-right">
+              <h3>Buy Property</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quis molestiae vitae eligendi at.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="fas fa-chart-line"></div>
+            <div class="services-card-right">
+              <h3>Investing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quis molestiae vitae eligendi at.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="fas fa-building"></div>
+            <div class="services-card-right">
+              <h3>List a Property</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quis molestiae vitae eligendi at.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="fas fa-search"></div>
+            <div class="services-card-right">
+              <h3>Property Locator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quis molestiae vitae eligendi at.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="fas fa-mobile-alt"></div>
+            <div class="services-card-right">
+              <h3>Stated Apps</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quis molestiae vitae eligendi at.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tetimunial -->
+    <section id="testimonials">
+      <div class="container">
+        <h2>What Our Clients Are Saying</h2>
+        <div id="testimonials-slider">
+          <div>
+            <blockquote>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia nostrum vitae explicabo dolore ratione. Quia iure quod
+                ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta
+                molestiae dolorum laudantium."
+              </p>
+            </blockquote>
+            <div class="testimonials-caption">
+              <img src="assets/client_3.jpg" alt="Client 7" />
+              <p>Nick Andros</p>
+            </div>
+          </div>
+
+          <div>
+            <blockquote>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia nostrum vitae explicabo dolore ratione. Quia iure quod
+                ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta
+                molestiae dolorum laudantium."
+              </p>
+            </blockquote>
+            <div class="testimonials-caption">
+              <img src="assets/client_1.jpg" alt="Client 7" />
+              <p>Larry Underwood</p>
+            </div>
+          </div>
+
+          <div>
+            <blockquote>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia nostrum vitae explicabo dolore ratione. Quia iure quod
+                ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta
+                molestiae dolorum laudantium."
+              </p>
+            </blockquote>
+            <div class="testimonials-caption">
+              <img
+                src="assets/client_2.jpg"
+                style="height: 60px"
+                alt="Client 7"
+              />
+              <p>Fran Goldsmith</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+
+        <div class="flex">
+          <div id="form-container">
+            <h3>Contact Form</h3>
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+
+              <label for="email">Email</label>
+              <input type="text" id="email" />
+
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" />
+
+              <label for="message">Message</label>
+              <textarea id="message">Write your message here..</textarea>
+
+              <button class="rounded">Send Message</button>
+            </form>
+          </div>
+
+          <div id="address-container">
+            <label>Address</label>
+            <address>
+              20377 Evergreen Terrace Mountain View, California, USA
+            </address>
+
+            <label>Phone</label>
+            <a href="#">232-232-2323</a>
+
+            <label>Email Address</label>
+            <a href="#">ouremail@domain.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="flex container">
+        <div class="footer-about">
+          <h5>About Stated</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            facere laudantium magnam voluptatum autem. Amet aliquid nesciunt
+            veritatis aliquam.
+          </p>
+        </div>
+
+        <div class="footer-quick-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#the-best">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-subscribe">
+          <h5>Subscribe to our Newsletter</h5>
+          <div id="subscribe-container">
+            <input type="text" placeholder="Enter Email" />
+            <button class="right-rounded">Send</button>
+          </div>
+
+          <h5 class="follow-us">Follow Us</h5>
+          <ul>
+            <li>
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="fab fa-linkedin-in"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <small> Copyright &copy; 2019 All rights reserved </small>
+    </footer>
+    <script src="javascript.js"></script>
   </body>
 </html>
